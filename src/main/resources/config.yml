@@ -1,0 +1,40 @@
+license-key: "BURAYA_KENDİ_LİSANS_KODUNU_YAZ"
+metintasi_can: 500
+metintasi_timefreeze: 3600
+metintasi_dropchance: 4
+
+metintasi_rewards:
+  # FISH REWARDS - %1
+  - "COMMAND:&6&lAntik Hazine Paketi:PAPER:1:10:fishrewards admin givepack AntikHazine %player%:"
+
+  # CRATES - COMMON KEY - %3
+  - "COMMAND:&a&lCommon Kasa Anahtarı:TRIPWIRE_HOOK:1:7:crates key give %player% common 1:"
+
+  # ECONOMY - %1
+  - "COMMAND:&e&l250 Coin:GOLD_NUGGET:1:50:eco give %player% 250:"
+
+  # CRATES - MAGICAL KEY - %1
+  - "COMMAND:&d&lMagical Kasa Anahtarı:TRIPWIRE_HOOK:1:5:crates key give %player% magical 1:"
+
+  # GOLD INGOT - %1 (NORMAL item - prefix YOK)
+  - "&6&lAltın Külçe:GOLD_INGOT:1:25"
+
+  - "&3&lZümrüt Külçe:EMERALD:1:5"
+
+  - "&b&lElmas Külçe:DIAMOND:1:5"
+
+  - "&f&lDemir Külçe:IRON_INGOT:1:15"
+
+  # METİN TAŞI PARÇASI - %2 (Özel item)
+  - "CUSTOM:&eᴍᴇᴛɪɴ ᴛᴀsı ᴘᴀʀᴄᴀsı:PAPER:1:2:&7ᴍᴇᴛɪɴᴛᴀsı ʙᴏʟɢᴇsɪɴᴅᴇ ᴜɢʀᴀʏᴀʀᴀᴋ ᴛᴀᴋᴀs ʏᴀᴘᴀʙɪʟɪʀꜱɪɴ|&7/ᴡᴀʀᴘ metintaşı"
+hologram:
+  enabled: true
+  height: 1.8
+  title: "&6&l★ &e&l%isim% &6&l★"
+  subtitle: "&fKır ve ödüller kazan!"
+  health_format: "&c❤ &f%current%&7/&c%max%"
+  respawn_title: "&6&l★ &c&l%isim% &6&l★"
+  respawn_subtitle: "&7Yenileniyor...!"
+  respawn_subtitle2: "&f/warp metintaşı"
+  respawn_time_format: "&e⏳ &f%time%"
+  respawn_message: "&7Kırılmaya hazırlanıyor"

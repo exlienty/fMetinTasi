@@ -1,0 +1,37 @@
+# Genel mesajlar
+prefix: "[MetinTasi]"
+no_permission: "&cBu komutu kullanmak icin yetkin yok!"
+must_be_player: "&cBu komut sadece oyuncular tarafindan kullanilabilir!"
+block_not_selected: "&cLutfen bir bloga bakarak bu komutu kullanin!"
+invalid_block: "&cSadece Obsidian veya Sponge secebilirsiniz!"
+
+# Metin Tasi ayarlama/silme
+metintasi_set: "&aMetin Tasi basariyla ayarlandi: &e%isim%"
+metintasi_remove: "&cMetin Tasi kaldirildi: &e%isim%"
+metintasi_no_active: "&cAktif bir Metin Tasi bulunmuyor!"
+metintasi_not_found: "&cBu isimde bir Metin Tasi bulunamadi: &e%isim%"
+metintasi_already_exists: "&cBu isimde bir Metin Tasi zaten mevcut: &e%isim%"
+
+# Oduller
+odul_mesaj: "&6【&e&l🎁&6】 &e&lMETİN TAŞI &6【&e&l🎁&6】\n   &7→ &6%item% &ex%amount%"
+
+# Hologram basliklari
+hologram_title: "&b★ Metin Tasi ★"
+hologram_subtitle: "&7Kir ve oduller kazan!"
+hologram_hp_prefix: "&cHP: "
+hologram_hp_suffix: "&f/%max%"
+
+# Metin Tasi respawn
+respawn_message_title: "&9METIN TASI SPAWNLANDI"
+respawn_message_subtitle: "&7Hazır ve yeniden kırılabilir!"
+
+# Odul sansi
+drop_success_message: "&aTebrikler! Odulun alindi."
+
+# Hatalar
+invalid_reward_format: "&cConfig icinde hatali odul formati: &e%entry%"
+
+# Yeni mesajlar
+reload_success: "&aPlugin basariyla yeniden yuklendi!"
+usage_ayarla: "&cKullanim: &6/metintasiayarla <isim>"
+usage_sil: "&cKullanim: &6/metintasisil <isim>"

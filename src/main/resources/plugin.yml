@@ -1,0 +1,41 @@
+name: MetinTasi
+version: 1.0
+main: com.kripto.MetinTasiPlugin
+api-version: "1.20"
+author: Kripto
+description: Ozellestirilebilir Metin Tasi Plugin
+
+commands:
+  metintasiayarla:
+    description: Metin tasi ayarlama komutu
+    usage: /<command> <isim>
+    permission: metintasi.ayarla
+  metintasisil:
+    description: Metin tasi silme komutu
+    usage: /<command> <isim>
+    permission: metintasi.sil
+  metintasi:
+    description: Metin tasi ana komutu
+    usage: /<command> [reload]
+    permission: metintasi.reload
+  metintasi:
+    description: Metin tasi ana komutu
+    usage: /<command> [reload|clearholograms]
+    permission: metintasi.reload
+
+permissions:
+  metintasi.*:
+    description: Tum metin tasi izinleri
+    children:
+      metintasi.ayarla: true
+      metintasi.sil: true
+      metintasi.reload: true
+  metintasi.ayarla:
+    description: Metin tasi ayarlama izni
+    default: op
+  metintasi.sil:
+    description: Metin tasi silme izni
+    default: op
+  metintasi.reload:
+    description: Plugin reload izni
+    default: op

@@ -1,0 +1,7 @@
+# Bu dosya otomatik olarak oluşturulacak
+# Metin taşlarının konumlarını saklar
+metin-taslari:
+# Örnek:
+# metin1:
+#   location: world,100,64,100
+#   maxCan: 1000
