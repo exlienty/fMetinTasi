@@ -30,7 +30,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 class LicenseManager {
-    private static final String VERIFY_URL = "http://45.141.150.5:5000/verify";
+    private static final String VERIFY_URL = "http://lisansip:5000/verify";
     private final JavaPlugin plugin;
 
 
